@@ -11964,7 +11964,7 @@ Icons=a.load'ab',
 
 local aq=ak("TextBox",{
 Text="",
-PlaceholderText="Search...",
+PlaceholderText="搜索...",
 ThemeTag={
 PlaceholderColor3="Placeholder",
 TextColor3="Text",
