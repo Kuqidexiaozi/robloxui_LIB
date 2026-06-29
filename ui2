@@ -57,7 +57,7 @@ local Window = WindUI:CreateWindow({
         Color3.fromHex("#8B00FF"),   -- 紫色
         Color3.fromHex("#FF0040")    -- 回到红色（形成循环）
     ),
-}
+},
     
     Topbar = {
         Height = 44,
