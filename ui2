@@ -26,19 +26,17 @@ do
 end
 
 local Window = WindUI:CreateWindow({
-	Title = "ui示例",
-	Author = "未知",
-	Folder = "ftgshub",
-	Icon = "solar:folder-2-bold-duotone",
-	Theme = "Light",
-	IconSize = 22*2,
-	NewElements = true,
-	--Size = UDim2.fromOffset(700,700),
-
-	HideSearchBar = false,
-
-Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",
-    BackgroundImageTransparency = 0,
+    Title = "ui示例",
+    Author = "未知",
+    Folder = "ftgshub",              
+    Icon = "solar:folder-2-bold-duotone",
+    Theme = "Light",
+    IconSize = 22*2,
+    NewElements = true,
+    --Size = UDim2.fromOffset(700,700),
+    HideSearchBar = false,           
+    Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",  
+    BackgroundImageTransparency = 0, 
 })
 
 	OpenButton = {
