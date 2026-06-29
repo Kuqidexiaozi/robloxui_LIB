@@ -14437,7 +14437,7 @@ J=true
 
 aw:Dialog{
 
-Title="提醒",
+Title="🔴",
 Content="确定关闭脚本吗",
 Buttons={
 {
