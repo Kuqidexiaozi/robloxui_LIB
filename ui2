@@ -33,10 +33,10 @@ local Window = WindUI:CreateWindow({
     Theme = "Light",
     IconSize = 22*2,
     NewElements = true,
-    --Size = UDim2.fromOffset(700,700),
+    Size = UDim2.fromOffset(700,700),
     HideSearchBar = false,           
     Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",  
-    BackgroundImageTransparency = 0,
+    BackgroundImageTransparency = 0.75,
     
     OpenButton = {
         Title = "打开 .ftgs 中心 UI",
