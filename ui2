@@ -36,30 +36,27 @@ local Window = WindUI:CreateWindow({
     --Size = UDim2.fromOffset(700,700),
     HideSearchBar = false,           
     Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",  
-    BackgroundImageTransparency = 0, 
+    BackgroundImageTransparency = 0,
+    
+    OpenButton = {
+        Title = "打开 .ftgs 中心 UI",
+        CornerRadius = UDim.new(1, 0),
+        StrokeThickness = 3,
+        Enabled = true,
+        Draggable = true,
+        OnlyMobile = false,
+        Scale = 0.5,
+        Color = ColorSequence.new(
+            Color3.fromHex("#30FF6A"),
+            Color3.fromHex("#e7ff2f")
+        ),
+    },
+    
+    Topbar = {
+        Height = 44,
+        ButtonsType = "Mac",
+    },
 })
-
-	OpenButton = {
-		Title = "打开 .ftgs 中心 UI", -- 可以修改
-		CornerRadius = UDim.new(1, 0), -- 完全圆角
-		StrokeThickness = 3, -- 移除边框
-		Enabled = true, -- 启用或禁用打开按钮
-		Draggable = true,
-		OnlyMobile = false,
-		Scale = 0.5,
-
-		Color = ColorSequence.new( -- 渐变
-			Color3.fromHex("#30FF6A"),
-			Color3.fromHex("#e7ff2f")
-		),
-	},
-	Topbar = {
-		Height = 44,
-		ButtonsType = "Mac", -- 默认 或 Mac
-	},
-})
-
---createPopup()
 
 --Window:SetUIScale(.8)
 
@@ -1084,7 +1081,7 @@ if not RunService:IsStudio() and writefile and printidentity() then
 			Icon = "",
 			Justify = "Center",
 			Callback = function()
-				print(HttpService:JSONDecode(ConfigManager:GetAutoLoadConfigs()))
+			print(HttpService:JSONDecode(ConfigManager:GetAutoLoadConfigs()))
 			end,
 		})
 	end
