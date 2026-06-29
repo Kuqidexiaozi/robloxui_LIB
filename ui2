@@ -38,19 +38,26 @@ local Window = WindUI:CreateWindow({
     Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",  
     BackgroundImageTransparency = 0,
     
-    OpenButton = {
-        Title = "打开 .ftgs 中心 UI",
-        CornerRadius = UDim.new(1, 0),
-        StrokeThickness = 3,
-        Enabled = true,
-        Draggable = true,
-        OnlyMobile = false,
-        Scale = 0.5,
-        Color = ColorSequence.new(
-            Color3.fromHex("#30FF6A"),
-            Color3.fromHex("#e7ff2f")
-        ),
-    },
+   OpenButton = {
+    Title = "打开",
+    CornerRadius = UDim.new(1, 0),  -- 完全圆形
+    StrokeThickness = 0,            -- 无边框，更干净
+    Enabled = true,
+    Draggable = true,
+    OnlyMobile = false,
+    Scale = 1.0,                    -- 正常大小
+    
+    -- 流动渐变（呐喊队风格 - 红/橙/黄/紫/蓝）
+    Color = ColorSequence.new(
+        Color3.fromHex("#FF0040"),   -- 红色
+        Color3.fromHex("#FF6B00"),   -- 橙色
+        Color3.fromHex("#FFD700"),   -- 金色
+        Color3.fromHex("#00FF80"),   -- 亮绿
+        Color3.fromHex("#0066FF"),   -- 蓝色
+        Color3.fromHex("#8B00FF"),   -- 紫色
+        Color3.fromHex("#FF0040")    -- 回到红色（形成循环）
+    ),
+}
     
     Topbar = {
         Height = 44,
