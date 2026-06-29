@@ -5,6 +5,7 @@
     |__/|__/_/_//_/\_,_/\____/___/
     
     v1.6.65  |  2026-06-28  |  Roblox UI Library for scripts
+    v1.6.65  |  2026-06-28  |  Roblox UI Library for scripts
     
     To view the source code, see the `src/` folder on the official GitHub repository.
     
@@ -14437,7 +14438,7 @@ J=true
 
 aw:Dialog{
 
-Title="消息",
+Title="消息🔴",
 Content="确定关闭脚本吗",
 Buttons={
 {
