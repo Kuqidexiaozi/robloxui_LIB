@@ -37,6 +37,10 @@ local Window = WindUI:CreateWindow({
 
 	HideSearchBar = false,
 
+Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/R-C.jpg",
+    BackgroundImageTransparency = 0,
+})
+
 	OpenButton = {
 		Title = "打开 .ftgs 中心 UI", -- 可以修改
 		CornerRadius = UDim.new(1, 0), -- 完全圆角
