@@ -54,12 +54,6 @@ local Window = WindUI:CreateWindow({
         ButtonsType = "Mac",
     },
 })
-    
-    Topbar = {
-        Height = 44,
-        ButtonsType = "Mac",
-    },
-})
 
 --Window:SetUIScale(.8)
 
