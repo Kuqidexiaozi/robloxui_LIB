@@ -37,19 +37,21 @@ local Window = WindUI:CreateWindow({
     HideSearchBar = false,           
     Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/1054290699..jpg",  
     BackgroundImageTransparency = 0,
-    
-   OpenButton = {
-    Title = "打开",
-    CornerRadius = UDim.new(1, 0),  -- 完全圆形
-    StrokeThickness = 0,
-    Enabled = true,
-    Draggable = true,
-    OnlyMobile = false,
-    Scale = 1.0,
-    
-    Color = Color3.fromHex("#FFFFFF"),  
-    }, 
-},
+    OpenButton = {
+        Title = "打开",
+        CornerRadius = UDim.new(1, 0),
+        StrokeThickness = 0,
+        Enabled = true,
+        Draggable = true,
+        OnlyMobile = false,
+        Scale = 1.0,
+        Color = Color3.fromHex("#FFFFFF"),
+    },
+    Topbar = {
+        Height = 44,
+        ButtonsType = "Mac",
+    },
+})
     
     Topbar = {
         Height = 44,
