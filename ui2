@@ -30,10 +30,10 @@ local Window = WindUI:CreateWindow({
     Author = "未知",
     Folder = "ftgshub",              
     Icon = "solar:folder-2-bold-duotone",
-    Theme = "Mellowsi",
+    Theme = "Light",
     IconSize = 22*2,
     NewElements = true,
-    --Size = UDim2.fromOffset(700,700),
+    Size = UDim2.fromOffset(700,700),
     HideSearchBar = false,           
     Background = "https://raw.githubusercontent.com/Kuqidexiaozi/-.ROBLOX-UI/main/1054290699..jpg",  
     BackgroundImageTransparency = 0,
@@ -47,12 +47,8 @@ local Window = WindUI:CreateWindow({
     OnlyMobile = false,
     Scale = 1.0,
     
-    -- 呐喊风格配色：激情红 + 活力橙
-    Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromHex("#FF003C")),   -- 呐喊红
-        ColorSequenceKeypoint.new(0.5, Color3.fromHex("#FF6B00")), -- 火焰橙
-        ColorSequenceKeypoint.new(1, Color3.fromHex("#FF003C")),   -- 回到呐喊红
-    }),
+    Color = Color3.fromHex("#FFFFFF"),  
+    }, 
 },
     
     Topbar = {
