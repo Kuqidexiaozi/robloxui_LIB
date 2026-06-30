@@ -36,22 +36,21 @@ local Window = WindUI:CreateWindow({
     Size = UDim2.fromOffset(700,700),
     HideSearchBar = false,           
     
-   OpenButton = {
-    Title = "打开",
-    CornerRadius = UDim.new(1, 0), 
-    StrokeThickness = 0,
-    Enabled = true,
-    Draggable = true,
-    OnlyMobile = false,
-    Scale = 1.0,
-    
-    Color = Color3.fromHex("#FFFFFF"),
-},
+    OpenButton = {
+        Title = "打开",
+        CornerRadius = UDim.new(1, 0), 
+        StrokeThickness = 0,
+        Enabled = true,
+        Draggable = true,
+        OnlyMobile = false,
+        Scale = 1.0,
+        Color = Color3.fromHex("#FFFFFF"),  -- ✅ 这里加了逗号！
+    },  -- ✅ OpenButton 结束也要逗号
     
     Topbar = {
         Height = 44,
         ButtonsType = "Mac",
-    },
+    },  -- ✅ 最后一个可以不加，但加上更安全
 })
 
 --Window:SetUIScale(.8)
