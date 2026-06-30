@@ -60,15 +60,14 @@ local Window = WindUI:CreateWindow({
 	},
 })
 
--- */  标签  /* --
-do
-	Window:Tag({
+--do
+	  --Window:Tag({
 	  --Title = "",
-		Icon = "",
-		Color = Color3.fromHex("#1c1c1c"),
-		Border = false,
-	})
-end
+      --Icon = "",
+      --Color = Color3.fromHex("#1c1c1c"),
+	  --Border = false,
+	--})
+--end
 
 -- */  颜色  /* --
 local Purple = Color3.fromHex("#7775F2")
